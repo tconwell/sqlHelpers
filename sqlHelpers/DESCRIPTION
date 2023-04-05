@@ -1,0 +1,20 @@
+Package: sqlHelpers
+Type: Package
+Title: Collection of SQL Utilities for 'T-SQL' and 'Postgresql'
+Version: 0.1.0
+Author: Timothy Conwell
+Maintainer: Timothy Conwell <timconwell@gmail.com>
+Description: Includes functions for interacting with common meta data fields, 
+  writing insert statements, calling functions, and more for 'T-SQL' and 'Postgresql'.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  data.table,
+  toolbox
+Imports:
+  DBI,
+  odbc,
+  parallel,
+  stringi
+RoxygenNote: 7.2.0
